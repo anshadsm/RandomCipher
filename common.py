@@ -1,9 +1,111 @@
+code hided 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 from Crypto.Cipher import AES
 from datetime import datetime
 
 key = '1234567891234567'
-message = 'your_message'+" "+str(datetime.now())
-len_time = len(str(datetime.now()))
+message = 'your_message'
 cipher = AES.new(key)
 
 def pad(s):
